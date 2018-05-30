@@ -19,4 +19,4 @@ slider1.addEventListener('change', drehen, false);
 - IE
 - Edge
 
-## Anzeige: [link](http://htmlpreview.github.io/?https://github.com/sauternic/HTML_Slider_nativ_Demo/blob/master/Slider_HTML.html)
+## Anzeigen: [link](http://htmlpreview.github.io/?https://github.com/sauternic/HTML_Slider_nativ_Demo/blob/master/Slider_HTML.html)
