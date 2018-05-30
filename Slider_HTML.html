@@ -22,11 +22,11 @@
         window.onload = function() {
             //Firefox, Chrom, Opera
             slider1.addEventListener('input', drehen, false);
-			//Bei IE und edge nur change
-			slider1.addEventListener('change', drehen, false);
+	    //Bei IE und edge nur change
+	    slider1.addEventListener('change', drehen, false);
             
-			function drehen(e) {
-                rect1.setAttribute('transform', 'rotate(' + e.target.value + ',750,350)')
+	    function drehen(e) {
+            	rect1.setAttribute('transform', 'rotate(' + e.target.value + ',750,350)')
             }
         }
     </script>
