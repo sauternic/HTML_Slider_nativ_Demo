@@ -5,7 +5,7 @@ Demonstration des nativen HTML Slider, so das er auf wichtigen Browsern probleml
 
 Einfach ohne Browser-Weiche beide Events (input,change) nacheinander Registrieren! :)))
 
-```html
+```JavaScript
 //Firefox, Chrom, Opera  
 slider1.addEventListener('input', drehen, false);  
 //Bei IE und edge nur change  
