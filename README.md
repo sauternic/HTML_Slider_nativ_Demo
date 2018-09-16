@@ -3,7 +3,7 @@
 Demonstration des nativen HTML Slider, so das er auf wichtigen Browsern problemlos läuft
 ---
 
-# [Show](http://htmlpreview.github.io/?https://github.com/sauternic/HTML_Slider_nativ_Demo/blob/master/Slider_HTML.html)
+# [Show](https://sauternic.github.io/HTML_Slider_nativ_Demo/)
 
 
 Einfach ohne Browser-Weiche beide Events (input,change) nacheinander Registrieren! :)))
