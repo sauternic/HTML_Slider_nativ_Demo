@@ -3,6 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Slider</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125935075-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125935075-1');
+    </script>
+
     <style>
         * {
             border: 1px solid black;
@@ -19,14 +30,14 @@
     <script>
         'use strict';
         window.onerror = function (e) { alert(e); };
-        window.onload = function() {
+        window.onload = function () {
             //Firefox, Chrom, Opera
             slider1.addEventListener('input', drehen, false);
-	    //Bei IE und edge nur change
-	    slider1.addEventListener('change', drehen, false);
-            
-	    function drehen(e) {
-            	rect1.setAttribute('transform', 'rotate(' + e.target.value + ',750,350)')
+            //Bei IE und edge nur change
+            slider1.addEventListener('change', drehen, false);
+
+            function drehen(e) {
+                rect1.setAttribute('transform', 'rotate(' + e.target.value + ',750,350)')
             }
         }
     </script>
